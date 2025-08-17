@@ -1,0 +1,10 @@
+@import "../../base/index.css";
+@import "../../layout/header.css";
+@import "./hero.css";
+@import "./service.css";
+@import "./selected-work.css";
+@import "./proceses.css";
+@import "./feedback.css";
+@import "./about.css";
+@import "../../layout/banner.css";
+@import "../../layout/footer.css";
