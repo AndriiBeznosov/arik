@@ -1,0 +1,22 @@
+{
+    "name": "arik",
+    "version": "1.0.0",
+    "homepage": "https://AndriiBeznosov.github.io/arik",
+    "scripts": {
+        "start": "parcel src/*.html --open --port 3012",
+        "build": "parcel build src/*.html --public-url /arik/"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/AndriiBeznosov/arik.git"
+    },
+    "browserslist": "> 0.5%, last 2 versions, not dead",
+    "dependencies": {
+        "buffer": "^6.0.3",
+        "parcel": "^2.15.4",
+        "parcel-reporter-clean-dist": "^1.0.4",
+        "posthtml-include": "^2.0.1"
+    },
+    "author": "Andrii Beznosov <andrey301288@gmail.com>",
+    "license": "ISC"
+}
