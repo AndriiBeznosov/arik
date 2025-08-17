@@ -1,0 +1,2 @@
+let toTopBtn=document.getElementById("top"),btnMenuOpen=document.querySelector(".menu__btn"),mobileMenu=document.querySelector(".mobile-nav__list");btnMenuOpen.addEventListener("click",()=>{btnMenuOpen.classList.toggle("btn--active"),mobileMenu.classList.toggle("mobile--active")}),window.addEventListener("scroll",()=>{window.scrollY>.8*window.innerHeight?toTopBtn.classList.add("show"):toTopBtn.classList.remove("show")}),toTopBtn.addEventListener("click",()=>{window.scroll({top:0,behavior:"smooth"})});
+//# sourceMappingURL=arik.560c0e63.js.map
